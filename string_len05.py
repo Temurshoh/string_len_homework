@@ -7,5 +7,6 @@ def main(s1,s2):
     Returns:
         total length of strings
     """
-    a=("s1"+"s2")
+    a=(s1+s2)
     return len(a)
+print(main("olim","tima"))
